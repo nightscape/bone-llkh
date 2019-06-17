@@ -32,15 +32,15 @@ TCHAR mapScanCodeToChar(unsigned level, char in)
 	switch (level) {
 	case 1:
 		wcscpy(mappingTable + 2,   L"1234567890-`");
-		wcscpy(mappingTable + 16, L"xvlcwkhgfqß´");
-		wcscpy(mappingTable + 30, L"uiaeosnrtdy");
-		wcscpy(mappingTable + 44, L"üöäpzbm,.j");
+		wcscpy(mappingTable + 16, L"jduaxphlmwß´");
+		wcscpy(mappingTable + 30, L"ctieobnrsgq");
+		wcscpy(mappingTable + 44, L"fvüäöyz,.k");
 		break;
 	case 2:
 		wcscpy(mappingTable + 2, L"°§ℓ»«$€„“”—");
-		wcscpy(mappingTable + 16, L"XVLCWKHGFQSS");
-		wcscpy(mappingTable + 30, L"UIAEOSNRTDY");
-		wcscpy(mappingTable + 44, L"ÜÖÄPZBM–•J");
+		wcscpy(mappingTable + 16, L"JDUAXPHLMWẞ");
+		wcscpy(mappingTable + 30, L"CTIEOBNRSGQ");
+		wcscpy(mappingTable + 44, L"FVÜÄÖYZ;:K");
 		break;
 	case 3:
 		wcscpy(mappingTable + 2, L"¹²³›‹¢¥‚‘’‐");
